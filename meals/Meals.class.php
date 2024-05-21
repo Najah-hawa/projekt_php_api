@@ -36,7 +36,7 @@ class Meals {
     
     }else {
         $response = array('message' =>  'Det finns inga meal att visa',);
-        http_response_code(404);   //Internal Server Error
+        http_response_code(404);   //Not Found
         return json_encode($response);
 
     }

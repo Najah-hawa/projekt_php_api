@@ -18,11 +18,9 @@ switch($method) {
 
         case 'GET': 
 
-   $mealList =  $meal-> getMealList();
+$mealList =  $meal-> getMealList();
 echo $mealList;
      
-
-
 
 break;
 
@@ -66,5 +64,4 @@ case 'POST':
 
 
 
-
-?> 
+?>
