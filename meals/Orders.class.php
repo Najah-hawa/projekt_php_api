@@ -60,7 +60,7 @@ function createOrder($orderInput){
     $persons = mysqli_real_escape_string($this->conn,$orderInput['persons']);
     $email = mysqli_real_escape_string($this->conn,$orderInput['email']);
     $ankomst = mysqli_real_escape_string($this->conn,$orderInput['ankomst']);
-    $klocka = mysqli_real_escape_string($this->conn,$orderInput['namn']);
+    $klocka = mysqli_real_escape_string($this->conn,$orderInput['klocka']);
 
     if(empty(trim($namn))){
 
